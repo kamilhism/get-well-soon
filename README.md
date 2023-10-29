@@ -75,4 +75,4 @@ Infrastructure defined in code using CDK: [src/infrastructure/main.py](src/infra
 
 ## Demo
 
-![demo](https://github.com/kamilhism/get-well-soon/assets/1645550/5a35cc02-6978-4189-9036-a2bb9b19c98c|width=10)
+https://github.com/kamilhism/get-well-soon/assets/1645550/63cb2a78-8328-4a76-a2b5-a9329b301785
