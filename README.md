@@ -4,10 +4,6 @@ Slack app that looks for messages in specific channel, detects if someone is ask
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=14913796932.5867082748166&scope=channels:history,reactions:read,reactions:write,chat:write&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
-## Demo
-
-![demo.mp4](.readme/demo.mp4)
-
 ## Overview of development
 
 TL;DR, what was accomplished during working on this pet project:
@@ -76,3 +72,7 @@ After fine-tuning & evaluating model on my data, I pushed it to the Hugging Face
 ### Deploying application
 
 Infrastructure defined in code using CDK: [src/infrastructure/main.py](src/infrastructure/main.py). So basically to deploy this whole app need to just run inside infrastructure folder: `cdk bootstrap` and `cdk deploy`
+
+## Demo
+
+![demo](https://github.com/kamilhism/get-well-soon/assets/1645550/5a35cc02-6978-4189-9036-a2bb9b19c98c|width=10)
