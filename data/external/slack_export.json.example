@@ -1,0 +1,50 @@
+[
+  {
+    "client_msg_id": "000000-000000-000000-000000-000000",
+    "type": "message",
+    "text": "Hello! I worked today from 7 am, I want to leave in an hour to do my business\nI’ll work the rest this week",
+    "user": "U0000000000",
+    "ts": "000000.000000",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OIAY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello! I worked today from 7 am, I want to leave in an hour to do my business\nI’ll work the rest this week"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "team": "T000000",
+    "user_team": "T000000",
+    "source_team": "T000000",
+    "user_profile": {
+      "avatar_hash": "g000000",
+      "image_72": "https:\/\/secure.gravatar.com\/avatar\/000000.png",
+      "first_name": "Some",
+      "real_name": "Some Person",
+      "display_name": "",
+      "team": "T000000",
+      "name": "some.person",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U000000",
+          "U000001"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]
