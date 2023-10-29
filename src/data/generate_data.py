@@ -2,6 +2,10 @@ import os
 import openai
 import json
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 api_key = os.getenv("OPENAI_API_KEY", "")
 if api_key != "":
     openai.api_key = api_key
