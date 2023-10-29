@@ -1,8 +1,12 @@
 ## About
 
-Slack app that looks for messages in specific channel, detects if someone is asking for a sick leave and puts 🍀 emoji to that message. Uses XLM Roberta model which was fine-tuned with custom & augmented by ChatGPT data. Infrastructure defined in code using CDK and deployed to AWS as multiple Lambdas which communicate between each other using SNS
+Slack app that looks for messages in specific channel, detects if someone is asking for a sick leave and puts 🍀 emoji to that message (this logic soon will be extended with posting sick leaves live info to [our dashboard](https://github.com/flatstack-warsaw-dashboard/dashboard)). Uses XLM Roberta model which was fine-tuned with custom & augmented by ChatGPT data. Infrastructure defined in code using CDK and deployed to AWS as multiple Lambdas which communicate between each other using SNS
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=14913796932.5867082748166&scope=channels:history,reactions:read,reactions:write,chat:write&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+
+## Demo
+
+https://github.com/kamilhism/get-well-soon/assets/1645550/63cb2a78-8328-4a76-a2b5-a9329b301785
 
 ## Overview of development
 
@@ -72,7 +76,3 @@ After fine-tuning & evaluating model on my data, I pushed it to the Hugging Face
 ### Deploying application
 
 Infrastructure defined in code using CDK: [src/infrastructure/main.py](src/infrastructure/main.py). So basically to deploy this whole app need to just run inside infrastructure folder: `cdk bootstrap` and `cdk deploy`
-
-## Demo
-
-https://github.com/kamilhism/get-well-soon/assets/1645550/63cb2a78-8328-4a76-a2b5-a9329b301785
