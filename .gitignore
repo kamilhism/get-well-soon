@@ -98,3 +98,6 @@ cdk.context.json
 /src/inference/prediction/model/*.json
 /src/inference/prediction/model/*.model
 /src/inference/prediction/model/*.bin
+
+# exclude .env file
+/src/infrastructure/.env
