@@ -2,7 +2,9 @@
 
 Slack app that looks for messages in specific channel, detects if someone is asking for a sick leave and puts 🍀 emoji to that message (this logic soon will be extended with posting sick leaves live info to [our dashboard](https://github.com/flatstack-warsaw-dashboard/dashboard)). Uses XLM Roberta model which was fine-tuned with custom & augmented by ChatGPT data. Infrastructure defined in code using CDK and deployed to AWS as multiple Lambdas which communicate between each other using SNS
 
-<a href="https://slack.com/oauth/v2/authorize?client_id=14913796932.5867082748166&scope=channels:history,reactions:read,reactions:write,chat:write&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+1. Install app to your workspace: <a href="https://slack.com/oauth/v2/authorize?client_id=14913796932.5867082748166&scope=channels:history,reactions:read,reactions:write,chat:write&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+2. Go to specific channel where you want to track messages. Go to Integrations -> Add App
+3. Done! App will now detect sick leave messages in this channel
 
 ## Demo
 
